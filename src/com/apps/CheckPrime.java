@@ -19,7 +19,7 @@ public class CheckPrime {
     }
 
     private static void callPrimeChecker() throws IOException {
-        System.out.println("Enter a number to check if it is prime:");
+        System.out.println("Enter a number to check if it is prime or not:");
         double number;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             number = Double.parseDouble(br.readLine());
